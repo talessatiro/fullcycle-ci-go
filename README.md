@@ -1,0 +1,1 @@
+## Aplicação de exemplo contendo as configurações para Integração Contínua usando o Github Actions
