@@ -41,6 +41,3 @@ jobs:
                 file: ./gomath/Dockerfile
                 push: false
                 tags: talessatiro/gomath:latest
-
-            - name: Check image digest
-              run: echo ${{ steps.docker_build.outputs.digest }}
