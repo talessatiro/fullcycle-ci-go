@@ -1,10 +1,9 @@
-FROM golang:latest
+FROM golang:1.15.12
 
 WORKDIR /app
 
-COPY . .
+COPY gomath/ .
 
-RUN ls -all
 RUN go build -o math
 
 CMD [ "./math" ]
