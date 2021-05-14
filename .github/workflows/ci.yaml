@@ -37,7 +37,7 @@ jobs:
               id: docker_build
               uses: docker/build-push-action@v2
               with:
-                context: .
+                context: ./gomath
                 file: ./gomath/Dockerfile
                 push: false
                 tags: talessatiro/gomath:latest

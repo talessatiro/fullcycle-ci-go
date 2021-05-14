@@ -2,8 +2,8 @@ FROM golang:1.15.12
 
 WORKDIR /app
 
-COPY gomath/ .
+COPY . .
 
 RUN go build -o math
 
-CMD [ "./math" ]
+CMD [ "./match" ]
