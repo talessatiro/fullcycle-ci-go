@@ -6,4 +6,4 @@ COPY . .
 
 RUN go build -o math
 
-CMD [ "./match" ]
+CMD [ "./math" ]
