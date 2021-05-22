@@ -17,3 +17,5 @@ Aplicação go simples que contem a definição de uma função de soma e um tes
 - Configurar o sonar-scanner no seu ambiente
 - Executar o sonar-scanner para varrer seu projeto e enviar os outputs de resultado para o serviço do Sonar
   - sonar-scanner -Dsonar.projectKey=projectKey -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.login=projectToken
+
+NOTA: O projeto está configurado para utilização do serviço [SonarCloud](https://sonarcloud.io/) 
