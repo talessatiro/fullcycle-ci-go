@@ -9,3 +9,15 @@ func main() {
 func sum(number1 int, number2 int) int {
 	return number1 + number2
 }
+
+func sub(number1 int, number2 int) int {
+	return number1 - number2
+}
+
+func times(number1 int, number2 int) int {
+	return number1 * number2
+}
+
+func div(number1 int, number2 int) int {
+	return number1 / number2
+}
